@@ -1,0 +1,37 @@
+/*:root{
+    
+
+ White hsl(0, 0%, 100%)
+ Light gray hsl(212, 45%, 89%)
+ Grayish blue hsl(220, 15%, 55%)
+ Dark blue hsl(218, 44%, 22%)
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
+  
+
+.inicio{
+    font-size: 15px;
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+}
+.primeira_linha{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.segunda_linha{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.qr_code_img{
+    display: grid;
+    gap: 10px
+}
