@@ -28,10 +28,17 @@
 .segunda_linha{
     font-weight: 400;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 5px;
     margin-bottom: 1rem;
 }
 .qr_code_img{
     display: grid;
-    gap: 10px
+    gap: 10px;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.attribution{
+    text-align: center;
 }
