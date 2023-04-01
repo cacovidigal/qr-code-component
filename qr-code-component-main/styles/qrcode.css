@@ -1,0 +1,124 @@
+.conteiner_inicio{
+    font-size: 15px;
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+}
+
+.texto{
+    text-align: center;
+}
+.primeira_linha{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+.segunda_linha{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+.qr_code_img{
+    display: grid;
+    gap: 10px;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.attribution{
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 770px) {
+    
+    .conteiner_inicio{
+        font-size: 15px;
+        display: flex;  
+        flex-wrap: wrap;  
+        justify-content: center;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+    .primeira_linha{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .segunda_linha{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 1rem;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .qr_code_img{
+        display: grid;
+        gap: 10px;
+        border-radius: 30px;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .attribution{
+        font-size: 15px;
+        text-align: center;
+    }
+   
+    
+}
+
+@media screen and (min-width: 1440px){
+    
+    .conteiner_inicio{
+        font-size: 15px;
+        display: flex;  
+        flex-wrap: wrap;  
+        justify-content: center;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+        flex-direction: column;
+    }
+
+    .texto{
+        margin-top: 800px;    
+    }
+    .primeira_linha{
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .segunda_linha{
+        font-size: 38px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 1rem;
+    }
+    .qr_code_img{
+        display: grid;
+        gap: 10px;
+        border-radius: 30px;
+        width: 90%;
+        margin-left: 80px;
+        
+    }
+    .attribution{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+}
